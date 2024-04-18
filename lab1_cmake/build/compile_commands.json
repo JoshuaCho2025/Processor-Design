@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/root/Processor Design/lab1_cmake/build",
+  "command": "/usr/bin/c++ -I\"/root/Processor Design/lab1_cmake/include\" -g -o CMakeFiles/hello2.dir/src/hello.cpp.o -c \"/root/Processor Design/lab1_cmake/src/hello.cpp\"",
+  "file": "/root/Processor Design/lab1_cmake/src/hello.cpp",
+  "output": "CMakeFiles/hello2.dir/src/hello.cpp.o"
+},
+{
+  "directory": "/root/Processor Design/lab1_cmake/build",
+  "command": "/usr/bin/c++ -I\"/root/Processor Design/lab1_cmake/include\" -g -o CMakeFiles/hello2.dir/src/name.cpp.o -c \"/root/Processor Design/lab1_cmake/src/name.cpp\"",
+  "file": "/root/Processor Design/lab1_cmake/src/name.cpp",
+  "output": "CMakeFiles/hello2.dir/src/name.cpp.o"
+}
+]
