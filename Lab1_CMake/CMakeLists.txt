@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(week-one-lab VERSION 3.29)
+add_executable(hello2)
+target_sources(hello2 PRIVATE src/hello.cpp)
+target_sources(hello2 PRIVATE src/name.cpp)
+target_include_directories(hello2 PRIVATE include)
