@@ -1,0 +1,65 @@
+warning: Embedding `vcpkg-configuration` in a manifest file is an EXPERIMENTAL feature.
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+    catch2:x64-linux@3.4.0 -- /root/.cache/vcpkg/registries/git-trees/5796c1c0513a7b49f135e8acdd1976f53e9944ea
+    nyu-cmake:x64-linux@1.1.3 -- /root/.cache/vcpkg/registries/git-trees/27510d84ea5dc53cb61eb8fbe054eda8b301f089
+Restored 0 package(s) from /root/.cache/vcpkg/archives in 95.5 us. Use --debug to see more details.
+Installing 1/2 catch2:x64-linux@3.4.0...
+Building catch2:x64-linux@3.4.0...
+/root/.cache/vcpkg/registries/git-trees/5796c1c0513a7b49f135e8acdd1976f53e9944ea: info: installing overlay port from here
+-- Using cached catchorg-Catch2-v3.4.0.tar.gz.
+-- Cleaning sources at /root/Processor Design/Lab2_SV/_deps/vcpkg-src/buildtrees/catch2/src/v3.4.0-a183b6a984.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /root/Processor Design/Lab2_SV/_deps/vcpkg-src/downloads/catchorg-Catch2-v3.4.0.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at /root/Processor Design/Lab2_SV/_deps/vcpkg-src/buildtrees/catch2/src/v3.4.0-a183b6a984.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/catch2_x64-linux/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/catch2_x64-linux/lib/pkgconfig/catch2.pc
+-- Fixing pkgconfig file: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/catch2_x64-linux/debug/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/catch2_x64-linux/debug/lib/pkgconfig/catch2.pc
+-- Installing: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/catch2_x64-linux/share/catch2/copyright
+-- Downloading https://github.com/NixOS/patchelf/releases/download/0.14.5/patchelf-0.14.5-x86_64.tar.gz -> patchelf-0.14.5-x86_64.tar.gz...
+-- Performing post-build validation
+Stored binaries in 1 destinations in 1.1 s.
+Elapsed time to handle catch2:x64-linux: 25 s
+catch2:x64-linux package ABI: a5573074977a68d6648fc6bbb8cddd8f057135f17c871466c850ba193bb43e0a
+Installing 2/2 nyu-cmake:x64-linux@1.1.3...
+Building nyu-cmake:x64-linux@1.1.3...
+/root/.cache/vcpkg/registries/git-trees/27510d84ea5dc53cb61eb8fbe054eda8b301f089: info: installing overlay port from here
+-- Downloading https://github.com/NYU-Processor-Design/nyu-cmake/archive/67e2210b22ab08fecfe2c724c645b9d3d2b69520.tar.gz -> NYU-Processor-Design-nyu-cmake-67e2210b22ab08fecfe2c724c645b9d3d2b69520.tar.gz...
+-- Extracting source /root/Processor Design/Lab2_SV/_deps/vcpkg-src/downloads/NYU-Processor-Design-nyu-cmake-67e2210b22ab08fecfe2c724c645b9d3d2b69520.tar.gz
+-- Using source at /root/Processor Design/Lab2_SV/_deps/vcpkg-src/buildtrees/nyu-cmake/src/d3d2b69520-548685b4fa.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/nyu-cmake_x64-linux/share/nyu-cmake/copyright
+-- Installing: /root/Processor Design/Lab2_SV/_deps/vcpkg-src/packages/nyu-cmake_x64-linux/share/nyu-cmake/usage
+-- Performing post-build validation
+Stored binaries in 1 destinations in 3.52 ms.
+Elapsed time to handle nyu-cmake:x64-linux: 3.4 s
+nyu-cmake:x64-linux package ABI: fc822b75f7e02f442384e49f56f046b3aeef6987212e96fce6aeac12ebd61749
+Total install time: 28 s
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+    # A modern, C++-native test framework for C++14 and above (links in default main)
+    catch2-with-main
+
+    # A modern, C++-native, test framework for C++14 and above
+    catch2
+
+nyu-cmake does not provide any targets, only functions
+
+    find_package(nyu-cmake CONFIG REQUIRED)
+
+    nyu_add_sv(target verilog.sv)
+    nyu_verilate(target)
+

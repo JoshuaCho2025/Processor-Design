@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+d547601f311dae374593beacfa1b8721 CMakeFiles/UpdateVcpkgBaseline
+a0a61a15828cd85fed54d3381939608d CMakeFiles/exercise1.dir/VExercise1.dir/VExercise1.cpp
+2c2ff83faef7ae3a1aa9b6b53646e0f0 CMakeFiles/exercise1.dir/VExercise1.dir/VExercise1_copy.cmake
+9e6c1d317f95e6121ce877809dbcad2d CMakeFiles/exercise2.dir/VExercise2.dir/VExercise2.cpp
+c76ce5bd0d75a3842a34be8f1d4ad8e2 CMakeFiles/exercise2.dir/VExercise2.dir/VExercise2_copy.cmake
+2bedaca696c14c871738b30eef092441 CMakeFiles/exercise3.dir/VExercise3.dir/VExercise3.cpp
+5fb665f2ae61ff8479266f1709a34bcb CMakeFiles/exercise3.dir/VExercise3.dir/VExercise3_copy.cmake
+952bbb844dfce4356fbe8ede2b68f6c9 CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4.cpp
+b81f787d0786653309cb61827ce5c373 CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4_copy.cmake

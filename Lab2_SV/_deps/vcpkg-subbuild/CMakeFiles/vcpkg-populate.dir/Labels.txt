@@ -1,0 +1,14 @@
+# Target labels
+ vcpkg-populate
+# Source files and their labels
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule
+/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule

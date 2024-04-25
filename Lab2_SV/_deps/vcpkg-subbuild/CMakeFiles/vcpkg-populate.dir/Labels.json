@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule"
+		},
+		{
+			"file" : "/root/Processor Design/Lab2_SV/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vcpkg-populate"
+		],
+		"name" : "vcpkg-populate"
+	}
+}

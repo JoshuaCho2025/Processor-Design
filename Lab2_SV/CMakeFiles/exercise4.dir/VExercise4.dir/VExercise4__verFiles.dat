@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "--compiler gcc --prefix VExercise4 --Mdir /root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir --make cmake --top-module Exercise4 --coverage --cc /root/Processor Design/Lab2_SV/rtl/Exercise4.sv"
+S         0        0           0           0           1           0 "/root/Processor"
+T      2171    94802  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4.cmake"
+T     13684    94800  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4.cpp"
+T      3464    94780  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4.h"
+T     21202    94799  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4__Slow.cpp"
+T       559    94773  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4__Syms.cpp"
+T       860    94774  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4__Syms.h"
+T       735    94951  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4__ver.d"
+T         0        0  1713473898    62857474  1713473898    62857474 "/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir/VExercise4__verFiles.dat"
+S       368    53345  1713466469   189842588  1695609530           0 "/root/Processor Design/Lab2_SV/rtl/Exercise4.sv"
+S   7892640    39529  1709835991   946468709  1598506306           0 "/usr/bin/verilator_bin"

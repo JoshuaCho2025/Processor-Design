@@ -1,0 +1,1 @@
+/usr/bin/verilator_bin;--compiler;gcc;--prefix;VExercise4;--Mdir;/root/Processor Design/Lab2_SV/CMakeFiles/exercise4.dir/VExercise4.dir;--make;cmake;--top-module;Exercise4;--coverage;--cc;/root/Processor Design/Lab2_SV/rtl/Exercise4.sv
